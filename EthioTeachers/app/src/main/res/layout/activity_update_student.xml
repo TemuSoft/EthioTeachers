@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F8FF"
+    android:scrollbars="vertical|horizontal"
+    tools:context="ethioteacher.dejen.ethioteachers.UpdateStudent">
+
+    <LinearLayout
+        android:id="@+id/layoutOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text="Choose you want to update student by your choice you can choose more than one!"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/k"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="select all"
+                android:textColorLink="#009933"
+                android:textSize="13sp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <CheckBox
+                android:id="@+id/l"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="disselect all"
+                android:textSize="13sp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutTow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutOne"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/checkboxLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.142"
+                android:text="S Name"
+                android:textColorLink="#009933"
+                android:textSize="13sp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <CheckBox
+                android:id="@+id/b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.142"
+                android:text="F Name"
+                android:textColorLink="#009933"
+                android:textSize="13sp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <CheckBox
+                android:id="@+id/c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.142"
+                android:text="GF name"
+                android:textColorLink="#009933"
+                android:textSize="13sp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <CheckBox
+                android:id="@+id/e"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.142"
+                android:text="Subject"
+                android:textColorLink="#009933"
+                android:textSize="13sp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <CheckBox
+                android:id="@+id/f"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.142"
+                android:text="P.Num"
+                android:textColorLink="#009933"
+                android:textSize="13sp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+
+            <CheckBox
+                android:id="@+id/i"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.142"
+                android:text="Age"
+                android:textColorLink="#009933"
+                android:textSize="13sp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <CheckBox
+                android:id="@+id/j"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.142"
+                android:text="Sex"
+                android:textColorLink="#009933"
+                android:textSize="13sp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/editTextLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/aa"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:capitalize="words"
+                android:ems="10"
+                android:inputType="textCapSentences"
+                android:maxLength="20"
+                android:textSize="13sp"
+                tools:ignore="HardcodedText,LabelFor,RelativeOverlap,RtlHardcoded" />
+
+            <EditText
+                android:id="@+id/bb"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:capitalize="words"
+                android:ems="10"
+                android:inputType="textCapSentences"
+                android:maxLength="20"
+                android:textSize="13sp"
+                tools:ignore="HardcodedText,LabelFor,RtlHardcoded" />
+
+            <EditText
+                android:id="@+id/cc"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:capitalize="words"
+                android:ems="10"
+                android:inputType="textCapSentences"
+                android:maxLength="20"
+                android:textSize="13sp"
+                tools:ignore="HardcodedText,LabelFor,RtlHardcoded,UnknownIdInLayout" />
+
+            <EditText
+                android:id="@+id/ee"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:capitalize="words"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:maxLength="20"
+                android:textSize="13sp"
+                tools:ignore="HardcodedText,LabelFor,RtlHardcoded" />
+
+            <EditText
+                android:id="@+id/ff"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:capitalize="words"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:maxLength="20"
+                android:textSize="13sp"
+                tools:ignore="HardcodedText,LabelFor,RtlHardcoded,UnknownIdInLayout" />
+
+
+            <EditText
+                android:id="@+id/editText18"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:capitalize="words"
+                android:inputType="number"
+                android:maxLength="2"
+                android:textSize="13sp"
+                tools:ignore="HardcodedText,LabelFor,RtlHardcoded" />
+
+            <EditText
+                android:id="@+id/jj"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:capitalize="words"
+                android:digits="FM"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textSize="13sp"
+                tools:ignore="HardcodedText,LabelFor,RtlHardcoded" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@android:drawable/ic_menu_edit"
+        tools:ignore="HardcodedText,RelativeOverlap,RtlHardcoded" />
+
+    <Button
+        android:id="@+id/more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent"
+        android:text="More"
+        tools:ignore="DuplicateIds,HardcodedText,RtlHardcoded" />
+
+</RelativeLayout>
+

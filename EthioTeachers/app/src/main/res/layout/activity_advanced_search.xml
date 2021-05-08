@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/total"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F8FF"
+    tools:context="ethioteacher.dejen.ethioteachers.AdvancedSearch"
+    tools:ignore="DuplicateIds">
+
+    <LinearLayout
+        android:id="@+id/layoutSearc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:capitalize="words"
+            android:ems="10"
+            android:hint="Search..."
+            android:inputType="textPersonName"
+            tools:ignore="HardcodedText,NotSibling,RelativeOverlap,RtlHardcoded" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:ignore="RtlHardcoded" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/layoutSearc"
+        android:divider="@android:color/holo_green_dark"
+        tools:ignore="RtlHardcoded" />
+
+
+</RelativeLayout>

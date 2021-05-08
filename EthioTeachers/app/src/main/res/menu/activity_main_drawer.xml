@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:title="Student Information managment!"
+        tools:ignore="HardcodedText">
+        <menu>
+            <item
+                android:id="@+id/AddStudent"
+                android:title="    Add "
+                android:icon="@android:drawable/ic_input_add"
+                tools:ignore="HardcodedText" />
+            <item
+                android:id="@+id/UpdateStudent"
+                android:title="    Update "
+                android:icon="@android:drawable/ic_menu_edit"
+                tools:ignore="HardcodedText" />
+            <item
+                android:id="@+id/SearchStudent"
+                android:title="    Search "
+                android:icon="@android:drawable/ic_menu_search"
+                tools:ignore="HardcodedText" />
+            <item
+                android:id="@+id/DeletStudent"
+                android:icon="@android:drawable/ic_menu_delete"
+                android:title="    Delete "
+                tools:ignore="HardcodedText" />
+
+        </menu>
+    </item>
+
+    <item
+        android:title="Manage account"
+        tools:ignore="HardcodedText">
+        <menu>
+            <item
+                android:id="@+id/CreateAccount"
+                android:icon="@android:drawable/ic_secure"
+                android:title="    Create "
+                tools:ignore="HardcodedText" />
+            <item
+                android:id="@+id/UpdateAccount"
+                android:icon="@android:drawable/ic_menu_edit"
+                android:title="    Update "
+                tools:ignore="HardcodedText" />
+            <item
+                android:id="@+id/DeleteAccount"
+                android:title="    Delete "
+                android:icon="@android:drawable/ic_menu_delete"
+                tools:ignore="HardcodedText" />
+        </menu>
+    </item>
+    <item
+        android:title="Manage Database"
+        tools:ignore="HardcodedText">
+        <menu>
+            <item
+                android:id="@+id/nav_slideshow"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Show all" />
+            <item
+                android:id="@+id/nav_manage"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Setting" />
+            <item
+                android:id="@+id/DBimport"
+                android:icon="@drawable/imports"
+                android:title="Import"
+                tools:ignore="HardcodedText" />
+            <item
+                android:id="@+id/DBexport"
+                android:icon="@drawable/exports"
+                android:title="Export"
+                tools:ignore="HardcodedText" />
+
+        </menu>
+    </item>
+    <item
+        android:title="Communicate"
+        tools:ignore="HardcodedText">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/Help"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="Help"
+        tools:ignore="HardcodedText">
+
+    </item>
+    <item
+        android:id="@+id/about"
+        android:title="About"
+        tools:ignore="HardcodedText">
+
+    </item>
+    <item
+        android:id="@+id/exit"
+        android:icon="@android:drawable/ic_lock_power_off"
+        android:title="Exit"
+        tools:ignore="HardcodedText">
+
+    </item>
+
+</menu>

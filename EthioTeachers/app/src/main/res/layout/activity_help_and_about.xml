@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ethioteacher.dejen.ethioteachers.HelpAndAbout">
+
+    <WebView
+        android:id="@+id/webeview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/editText28"/>
+
+    <EditText
+        android:id="@+id/editText28"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:ems="10"
+        android:hint="Subject"
+        android:inputType="textPersonName"
+        tools:ignore="HardcodedText,RelativeOverlap,RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/editText36"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:gravity="right"
+        android:hint="Grade"
+        android:inputType="textCapCharacters"
+        android:maxLength="3"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:ignore="HardcodedText,LabelFor,RelativeOverlap"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/editText36" />
+
+</RelativeLayout>

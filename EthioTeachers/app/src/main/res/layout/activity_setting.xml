@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F8FF"
+    tools:context="ethioteacher.dejen.ethioteachers.Setting">
+
+    <PreferenceCategory
+        android:summary=""
+        android:key="preferAdmin"
+        android:textColor="@android:color/holo_green_dark"
+        android:title="Administrator"
+        tools:ignore="HardcodedText">
+
+        <CheckBoxPreference
+            android:key="admin"
+            android:summary=""
+            android:title="Checked to as administrator" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="prefer"
+        android:summary=""
+        android:textColor="@android:color/holo_green_dark"
+        android:title="Font size and your information"
+        tools:ignore="HardcodedText">
+
+        <EditTextPreference
+            android:key="size"
+            android:summary="9-32 recommanded"
+            android:title="Text size " />
+
+        <EditTextPreference
+            android:key="schoolname"
+            android:summary=""
+            android:title="School Name" />
+
+        <EditTextPreference
+            android:key="teacherName"
+            android:summary=""
+            android:title="Your name" />
+
+        <EditTextPreference
+            android:key="grade"
+            android:summary="class you teach"
+            android:title="Grade" />
+
+        <EditTextPreference
+            android:key="subject"
+            android:summary="subject you teach"
+            android:title="Subject" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="prefer2"
+        android:summary="Time input"
+        android:textColor="@android:color/holo_green_dark"
+        android:title="Time provider"
+        tools:ignore="HardcodedText">
+
+        <CheckBoxPreference
+            android:key="date"
+            android:summary="uncheck for GPS time"
+            android:title="Date and Time provider" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="prefer3"
+        android:summary="Backup!"
+        android:textColor="@android:color/holo_green_dark"
+        android:title="Automatic backup"
+        tools:ignore="HardcodedText">
+
+        <CheckBoxPreference
+            android:key="add"
+            android:summary=""
+            android:title="In add student" />
+
+        <CheckBoxPreference
+            android:key="update"
+            android:summary=""
+            android:title="In update one student" />
+
+        <CheckBoxPreference
+            android:key="all"
+            android:summary=""
+            android:title="In update all student" />
+
+        <CheckBoxPreference
+            android:key="delete"
+            android:summary=""
+            android:title="In delete student" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="prefer4"
+        android:summary=""
+        android:textColor="@android:color/holo_green_dark"
+        android:title="Import"
+        tools:ignore="HardcodedText">
+
+        <CheckBoxPreference
+            android:key="ByDelete"
+            android:summary="Checked to remove current database"
+            android:title="By delete old data" />
+
+        <CheckBoxPreference
+            android:key="schoolOrManual"
+            android:summary="Check to add manualy"
+            android:title="Add student" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:summary=""
+        android:textColor="@android:color/holo_green_dark"
+        android:title="Save type"
+        tools:ignore="HardcodedText">
+
+        <CheckBoxPreference
+            android:key="saveType"
+            android:summary="Checked to save as excel file"
+            android:title="Save" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

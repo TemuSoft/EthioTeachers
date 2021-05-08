@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F8FF"
+    tools:context="ethioteacher.dejen.ethioteachers.UpdateStudentMore">
+
+    <LinearLayout
+        android:id="@+id/layout12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text="Choose you want to update stuednt result based on given bellow you can choose more than one!"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/k"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="select all"
+                android:textColorLink="#009933"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <CheckBox
+                android:id="@+id/l"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="disselect all"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout12"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.166"
+                android:text="Final 60"
+                android:textColorLink="#009933"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <CheckBox
+                android:id="@+id/b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.166"
+                android:text="Class work 10"
+                android:textColorLink="#009933"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <CheckBox
+                android:id="@+id/c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.166"
+                android:text="Home work 5"
+                android:textColorLink="#009933"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <CheckBox
+                android:id="@+id/d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.166"
+                android:text="Pro assign 10"
+                android:textColorLink="#009933"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <CheckBox
+                android:id="@+id/e"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.166"
+                android:text="Group work 5"
+                android:textColorLink="#009933"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <CheckBox
+                android:id="@+id/f"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.166"
+                android:text="Mide exane 10"
+                android:textColorLink="#009933"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="right">
+
+
+            <EditText
+                android:id="@+id/aa"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:maxLength="6"
+                android:textSize="13sp"
+                tools:ignore="HardcodedText,LabelFor,RelativeOverlap,RtlHardcoded" />
+
+            <EditText
+                android:id="@+id/bb"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:maxLength="6"
+                android:textSize="13sp"
+                tools:ignore="HardcodedText,LabelFor,RtlHardcoded" />
+
+            <EditText
+                android:id="@+id/cc"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:maxLength="6"
+                android:textSize="13sp"
+                tools:ignore="HardcodedText,LabelFor,RtlHardcoded" />
+
+            <EditText
+                android:id="@+id/dd"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:maxLength="6"
+                android:textSize="13sp"
+                tools:ignore="HardcodedText,LabelFor,RtlHardcoded" />
+
+            <EditText
+                android:id="@+id/ee"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:maxLength="6"
+                android:textSize="13sp"
+                tools:ignore="HardcodedText,LabelFor,RtlHardcoded" />
+
+            <EditText
+                android:id="@+id/ff"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:maxLength="6"
+                android:textSize="13sp"
+                tools:ignore="HardcodedText,LabelFor,RtlHardcoded" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@android:drawable/ic_menu_edit"
+        tools:ignore="DuplicateIds,HardcodedText,RtlHardcoded" />
+</RelativeLayout>

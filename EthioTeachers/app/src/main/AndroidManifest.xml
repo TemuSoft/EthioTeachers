@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ethioteacher.dejen.ethioteachers">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/images"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/images"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Welcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginPage" />
+        <activity
+            android:name=".MainActivity"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="application/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CreateAccount"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdvancedResult"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdvancedSearch"
+            android:screenOrientation="portrait" />
+        <activity android:name=".HelpAndAbout" />
+        <activity
+            android:name=".ListViewClass"
+            android:screenOrientation="portrait" />
+        <activity android:name=".UpdateAccount" />
+        <activity
+            android:name=".DeleteAccount"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AddStudent"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UpdateStudent"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DeleteStudents"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SearchStudent"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AboutAndHelp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AddStudentDetailMark"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ListViewForAdvanced"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SearchStudentMore"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UpdateStudentMore"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UpdateStudentEditable"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UpdateStudentMoreEditable"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".InfoAddEdit"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Setting"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

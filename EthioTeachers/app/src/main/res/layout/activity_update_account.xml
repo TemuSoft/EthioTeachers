@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F8FF">
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="19dp"
+        android:gravity="center"
+        android:textColor="#009900"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView52"
+        android:layout_marginTop="40dp"
+        android:text="old user name"
+        tools:ignore="HardcodedText,RtlHardcoded"
+        android:layout_toStartOf="@+id/editText52" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText53"
+        android:layout_alignBottom="@+id/editText53"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="old password"
+        tools:ignore="HardcodedText,RtlHardcoded"
+        android:layout_alignRight="@+id/textView55"
+        android:layout_alignEnd="@+id/textView55" />
+
+    <EditText
+        android:id="@+id/editText52"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView53"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:maxLength="25"
+        android:textSize="13sp"
+        tools:ignore="LabelFor,RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/editText53"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText52"
+        android:layout_alignStart="@+id/editText52"
+        android:layout_below="@+id/editText52"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:maxLength="12"
+        android:textSize="13sp"
+        tools:ignore="LabelFor,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText53"
+        android:layout_marginTop="55dp"
+        android:text="New user name"
+        tools:ignore="HardcodedText,RtlHardcoded"
+        android:layout_toStartOf="@+id/editText54" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/textView55"
+        android:layout_marginTop="56dp"
+        android:text="New password"
+        tools:ignore="HardcodedText,RtlHardcoded"
+        android:layout_toStartOf="@+id/editText55" />
+
+    <EditText
+        android:id="@+id/editText54"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView55"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:maxLength="25"
+        android:textSize="13sp"
+        tools:ignore="LabelFor,RelativeOverlap,RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/editText55"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText54"
+        android:layout_alignStart="@+id/editText54"
+        android:layout_below="@+id/editText54"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:maxLength="12"
+        android:textSize="13sp"
+        tools:ignore="LabelFor,RtlHardcoded" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@android:drawable/ic_menu_save"
+        tools:ignore="HardcodedText,RelativeOverlap,RtlHardcoded" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/transparent"
+        android:text="reset"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText55"
+        android:layout_marginTop="11dp"
+        android:text="Confirm new password "
+        tools:ignore="HardcodedText,RtlHardcoded"
+        android:layout_toStartOf="@+id/editText56" />
+
+    <EditText
+        android:id="@+id/editText56"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText55"
+        android:layout_alignStart="@+id/editText55"
+        android:layout_below="@+id/editText55"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:maxLength="12"
+        android:textSize="13sp"
+        tools:ignore="LabelFor,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/textView64"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText56"
+        android:layout_marginTop="47dp"
+        android:gravity="center"
+        android:textColor="#ff0000"
+        tools:ignore="RtlHardcoded" />
+
+</RelativeLayout>

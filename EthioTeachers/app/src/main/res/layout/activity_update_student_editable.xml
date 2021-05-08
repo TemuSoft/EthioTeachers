@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F8FF"
+    android:scrollbars="vertical|horizontal"
+    tools:context="ethioteacher.dejen.ethioteachers.UpdateStudentEditable">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.142"
+                android:text="Student Name"
+                tools:ignore="HardcodedText,RtlHardcoded,UnknownId" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.142"
+                android:text="Father Name"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.142"
+                android:text="GFather Name"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.142"
+                android:text="Subject"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.142"
+                android:text="Phone No"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.142"
+                android:text="Age"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.142"
+                android:text="Sex"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editText40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:capitalize="words"
+                android:ems="10"
+                android:inputType="textCapSentences"
+                android:maxLength="20"
+                android:textSize="13sp"
+                tools:ignore="HardcodedText,LabelFor,RtlHardcoded" />
+
+            <EditText
+                android:id="@+id/editText41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:capitalize="words"
+                android:ems="10"
+                android:inputType="textCapSentences"
+                android:maxLength="20"
+                android:textSize="13sp"
+                tools:ignore="HardcodedText,LabelFor,RtlHardcoded" />
+
+            <EditText
+                android:id="@+id/editText42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:capitalize="words"
+                android:ems="10"
+                android:inputType="textCapSentences"
+                android:maxLength="20"
+                android:textSize="13sp"
+                tools:ignore="HardcodedText,LabelFor,RtlHardcoded" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <EditText
+                android:id="@+id/editText45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:capitalize="words"
+                android:ems="10"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:textSize="13sp"
+                tools:ignore="HardcodedText,LabelFor,RtlHardcoded,UnknownId" />
+
+            <EditText
+                android:id="@+id/editText48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:capitalize="words"
+                android:digits="0123456789_"
+                android:ems="10"
+                android:maxLength="10"
+                android:textSize="13sp"
+                tools:ignore="HardcodedText,LabelFor,RtlHardcoded,TextFields,UnknownId,UnknownIdInLayout" />
+
+            <EditText
+                android:id="@+id/editText49"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:capitalize="words"
+                android:digits="MF"
+                android:ems="10"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textSize="13sp"
+                tools:ignore="HardcodedText,LabelFor,RtlHardcoded,UnknownIdInLayout" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@android:drawable/ic_menu_save"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+</RelativeLayout>
